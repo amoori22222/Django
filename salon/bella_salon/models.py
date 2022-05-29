@@ -15,4 +15,3 @@ class Contact(models.Model):
     icon = models.CharField(max_length=1000)
     method = models.CharField(max_length=50)
     info = models.CharField(max_length=100)
-
